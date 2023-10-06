@@ -1,0 +1,65 @@
+/* style.css */
+
+/* Reset some default styles and set a gradient background for the body */
+body {
+    font-family: 'Young Serif', serif; 
+    background-image: linear-gradient(45deg, #092efd, #e753e0); /* Create a gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main header element with class "main" */
+header.main {
+    background-color: #000000; 
+    color: rgb(235, 34, 34); 
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding around the header */
+}
+
+/* Style for the <h1> element inside the main header */
+header.main h1 {
+    font-family: 'Raleway', sans-serif; 
+}
+
+/* Style for the main content area with class "lyrics" */
+main.lyrics {
+    max-width: 800px; /* Set maximum width for the content */
+    margin: 0 auto;
+    padding: 20px; /* Add padding around the content */
+    background-color: lightblue; 
+    box-shadow: 0px 0px 10px rgb(0, 0, 0); /* Add a shadow to the content */
+}
+
+/* Style for elements with class "v1" */
+.v1 {
+    font-family: 'Lora', serif; 
+    font-size: large; 
+    font-weight: bold; 
+    color: darkblue; 
+}
+
+/* Style for elements with class "v2" */
+.v2 {
+    font-family: 'Marmelad', sans-serif; 
+    font-size: large; /* Set font size to large */
+    font-weight: 600; /* Set font weight to 600 */
+    color: darkred; 
+}
+
+/* Style for <p> elements inside the main content area */
+main.lyrics p {
+    margin: 0 0 10px; /* Add margin to the bottom of paragraphs */
+    line-height: 1.4; /* Set the line height to improve readability */
+}
+
+/* Style for elements with class "different-font" */
+.different-font {
+    font-family: 'Your-Other-Font', sans-serif; 
+}
+
+/* Style for the footer in the body */
+body footer {
+    text-align: center; 
+    background-color: #000000; 
+    color: red; 
+}
